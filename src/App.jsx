@@ -18,9 +18,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-       <Route path="/" element={<DashboardPage />} />
-       <Route path="/post" element={<PostJobPage />} />
-       <Route path="/all" element={<AllApplicantsPage />} />
+        <Route path="/" element={<DashboardPage />}>
+          <Route path="/post" element={<PostJobPage />} />
+          <Route path="/all" element={<AllApplicantsPage />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

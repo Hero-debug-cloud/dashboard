@@ -2,7 +2,7 @@ import React from 'react'
 
 const PostJobPage = () => {
   return (
-    <div>PostJobPage</div>
+    <div className='text-green'>PostJobPage</div>
   )
 }
 
